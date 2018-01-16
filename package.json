@@ -1,0 +1,22 @@
+{
+  "name": "demo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "~1.17.1",
+    "consolidate": "^0.14.5",
+    "cookie-parser": "^1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "express-session": "^1.15.6",
+    "morgan": "~1.8.1",
+    "nodemon": "^1.12.1",
+    "serve-favicon": "~2.4.2",
+    "sqlite3": "^3.1.13",
+    "swig": "^1.4.2"
+  }
+}

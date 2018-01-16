@@ -1,0 +1,42 @@
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Admin Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Login and Registration Form with HTML5 and CSS3">
+  <meta name="keywords" content="html5, css3, form, switch, animation, :target, pseudo-class">
+  <meta name="author" content="Codrops">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+  <div style="text-align:center;margin-top:30px;font-weight:bold;" id="message"></div>
+  <div id="container_demo">
+    <div id="wrapper">
+      <div id="login" class="animate form">
+        <h1>Login</h1>
+        <p>
+          <label for="username" class="uname"> Username </label>
+          <input id="username" name="username" required="" type="text" autocomplete="off" placeholder="Username...">
+        </p>
+        <p>
+          <label for="password" class="youpasswd"> Psassword </label>
+          <input id="password" name="password" required="" type="password" autocomplete="off" placeholder="Password...">
+        </p>
+        <br/>
+        <p class="login button">
+          <input type="submit" value="Login" onClick="loginClick(this)" name="login">
+        </p>
+        <p>
+          <a href="resetPassword.html">Forgot Password?</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
